@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title>360&#20840;&#26223;&#22270;-demo&#31687;</title>
+		<script type="text/javascript" src="swfobject.js">
+		</script>
+		<style type="text/css" title="Default">
+			body, div, h1, h2, h3, span, p {
+				font-family: Verdana,Arial,Helvetica,sans-serif;
+				color: #000000; 
+			}
+			body {
+			  font-size: 10pt;
+			  background : #ffffff; 
+			  margin: 0 auto;
+			}
+			table{
+				float: right;
+				margin-right: 20px;
+			}
+			table,tr,td {
+				font-size: 10pt;
+				border-color : #777777;
+				background : #dddddd; 
+				color: #000000; 
+				border-style : solid;
+				border-width : 1px;
+			}
+			h1 {
+				font-size: 18pt;
+			}
+			h2 {
+				font-size: 14pt;
+			}
+			.warning {
+				font-weight: bold;
+			}
+		</style>	
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+<!--
+	
+			var flashvars = {};
+			var params = {};
+				// embedded skin data 
+			skin='<skin marginleft="0" marginright="0" margintop="0" marginbottom="0" ><element x="-112" y="-32" anchor="4" width="224" height="64" id="loading image" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="image" imgurl="images/loading_image.png" >';
+			skin+='<action src="loaded" type="hide" value="" value2="" target="$self" />';
+			skin+='<element x="12" y="14" anchor="0" width="200" height="20" id="loading text" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&lt;b&gt;Loading... $p%&lt;/b&gt;" align="0" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >';
+			skin+='</element>';
+			skin+='<element x="12" y="40" anchor="0" width="200" height="12" id="loading bar" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="3" handcursor="0" type="rectangle" bordercolor="0x000000" borderalpha="1" backgroundcolor="0x4f4f4f" backgroundalpha="1" backgroundvisible="1" borderwidth="2" borderradius="0" >';
+			skin+='<modifier src="loading" type="scalex" offset="0" factor="1" />';
+			skin+='</element>';
+			skin+='<element x="200" y="1" anchor="0" width="24" height="24" id="loading close" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="image" imgurl="images/loading_close.png" >';
+			skin+='<action src="click" type="hide" value="" value2="" target="$parent" />';
+			skin+='</element>';
+			skin+='</element>';
+			skin+='<element x="-138" y="-38" anchor="7" width="277" height="32" id="toolbar" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >';
+			skin+='<element x="0" y="0" anchor="0" width="32" height="32" id="left" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/left.png" overurl="images/left__o.png" >';
+			skin+='<action src="pressed" type="panleft" value="" value2="" target="" />';
+			skin+='</element>';
+			skin+='<element x="35" y="0" anchor="0" width="32" height="32" id="right" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/right.png" overurl="images/right__o.png" >';
+			skin+='<action src="pressed" type="panright" value="" value2="" target="" />';
+			skin+='</element>';
+			skin+='<element x="70" y="0" anchor="0" width="32" height="32" id="up" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/up.png" overurl="images/up__o.png" >';
+			skin+='<action src="pressed" type="tiltup" value="" value2="" target="" />';
+			skin+='</element>';
+			skin+='<element x="105" y="0" anchor="0" width="32" height="32" id="down" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/down.png" overurl="images/down__o.png" >';
+			skin+='<action src="pressed" type="tiltdown" value="" value2="" target="" />';
+			skin+='</element>';
+			skin+='<element x="140" y="0" anchor="0" width="32" height="32" id="zoom in" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoom_in.png" overurl="images/zoom_in__o.png" >';
+			skin+='<action src="pressed" type="zoomin" value="" value2="" target="" />';
+			skin+='</element>';
+			skin+='<element x="175" y="0" anchor="0" width="32" height="32" id="zoom out" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoom_out.png" overurl="images/zoom_out__o.png" >';
+			skin+='<action src="pressed" type="zoomout" value="" value2="" target="" />';
+			skin+='</element>';
+			skin+='<element x="210" y="0" anchor="0" width="32" height="32" id="auto rotate" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/auto_rotate.png" overurl="images/auto_rotate__o.png" >';
+			skin+='<action src="click" type="toogleautorotate" value="" value2="" target="" />';
+			skin+='</element>';
+			skin+='<element x="245" y="0" anchor="0" width="32" height="32" id="fullscreen" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/fullscreen.png" overurl="images/fullscreen__o.png" >';
+			skin+='<action src="click" type="tooglefullscreen" value="" value2="" target="" />';
+			skin+='</element>';
+			skin+='</element>';
+			skin+='</skin>';
+			flashvars.skin=escape(skin);
+			params.quality = "high";
+			params.bgcolor = "#ffffff";
+			params.allowscriptaccess = "sameDomain";
+			params.allowfullscreen = "true";
+			params.base=".";
+			var attributes = {};
+			attributes.id = "pano";
+			attributes.name = "pano";
+			attributes.align = "middle";
+			swfobject.embedSWF(
+				"1_out.swf", "flashContent", 
+				"100%", "600", 
+				"9.0.0", "expressInstall.swf", 
+				flashvars, params, attributes);
+//-->
+		</script>
+		<div id="flashContent">
+			<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+		</div>
+		
+		<p>
+		<table cellpadding="5" cellspacing="0">
+			<tr>
+				<td><b>Description</b></td>
+				<td>&#21704;&#21704;~~~&#22788;&#22899;&#20316;~&#19981;&#35201;&#21943;&#21704;</td>
+			</tr>
+			<tr>
+				<td><b>Author</b></td>
+				<td>&#38472;&#24029;</td>
+			</tr>
+			<tr>
+				<td><b>Date/Time</b></td>
+				<td>2016:04:08 15:53:07</td>
+			</tr>
+			<tr>
+				<td><b>Copyright</b></td>
+				<td>&#31532;&#19968;&#29256;@123456</td>
+			</tr>
+		</table>
+		</p>	
+	</body>
+</html>
